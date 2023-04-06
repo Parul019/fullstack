@@ -1,0 +1,86 @@
+/* tag selector*/
+body{
+    background-color: bisque;
+}
+img {
+    width: 100px;
+    height: 100px;
+}
+/*dimesion: px,%,em*/
+/*color: name,%00000,*/
+p{
+    color: blue;
+}
+/*class selector*/
+.circular{
+    border-radius: 100%;
+}
+.first_para{
+    color: rgb(248, 71, 13);
+}
+.red_apple{
+    background-color: darksalmon;
+    
+}
+.green_apple{
+    background-color: rgb(233, 38, 184);
+}
+/*id selector*/
+#special{
+    color: rgb(135, 16, 34);
+    font-weight: bold;
+    background-color: cornflowerblue;
+}
+/*grouping selector*/
+.ekgroup, h1{
+    color: rgb(95, 81, 220);
+    font-weight: bold;
+    background-color: rgb(40, 208, 57);
+}
+/* pseudo selector div and span*/
+.apple{
+    color: brown;
+}
+.apple:hover{
+    background-color: aqua;
+    color: darkgreen;
+    font-weight: bolder; 
+}
+.firstbox{
+    background-color: red;
+    position: relative;
+   
+}
+.secondbox{
+    background-color: green;
+    /* margin-left: 100px; */
+    position: relative;
+    left: 10px;
+    bottom: 90px;
+    
+}
+.thirdbox{
+    background-color: blue;
+    margin-left: 200px;
+    /*margin-block-start: -200px; */
+    bottom: 90px;
+    left: 20px;
+    
+}
+.sqaure100,div{
+    height: 100px;
+    width: 100px;
+}
+.red_apple{
+    position: fixed;
+    top: 100px;
+    margin-top: 40px;
+
+}
+.green_apple{
+    position:sticky;
+    bottom:40px;
+    top: 100px;
+    right: 100px;
+    
+}
