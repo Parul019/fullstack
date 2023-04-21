@@ -1,6 +1,62 @@
+:root{
+    --backgroundColor:#FFA3FD;
+    --titlefont:#865DFF;
+    --secondarycolor:#E384FF;
+    --thirdcolor:#191825;
+    --defaulttextfont: 'Anton', sans-serif;
+    --defaultfont: 'Inspiration', cursive;
+    --defaultheadingfont: 'Sedgwick Ave Display', cursive; 
+}
+.top-section{
+    color:var(--secondarycolor);
+    background-color:var(--thirdcolor);
+    text-align: center;  
+    /* height: 500px; */
+    padding-top: 200px;
+}
+/* .heading-group{
+    margin-top: 100px;
+    display: inline-block;
+} */
 .heading{
-    /* font-size: large;
-    font-family: cursive; */
-    font-family: 'Inspiration', cursive;
-    font-size: xx-large;
+    font-family: var(--defaultheadingfont);
+    color: var(--titlefont);
+    margin: 0;
+    margin-top: 100px;
+    display: inline-block;
+}
+.bio{
+    font-family: var(--defaulttextfont);
+    color: var(--secondarycolor);
+    margin: 0;
+    padding-bottom: 20px;
+    /* font-size: 0.75em; */
+}
+img{
+    margin-bottom: -5px;
+}
+body{
+    background-color: var(--backgroundColor);
+    margin: 0px;
+}
+/* font-family: 'Anton', sans-serif;
+font-family: 'Inspiration', cursive;
+font-family: 'Sedgwick Ave Display', cursive; */
+.top-cloud{
+    width: 100px;
+    position: absolute;
+    margin-block-start: -100px;
+    margin-left: 50px;
+}
+.bottom-cloud{
+    width: 100px;
+    margin-block-start:50px;
+    position:absolute;
+    margin-left: -100px;
+
+}
+.mountain{
+    width: 600px;
+    margin-bottom: 0;
+
 }

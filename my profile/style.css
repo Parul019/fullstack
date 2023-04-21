@@ -1,6 +1,6 @@
 .hello{
     margin-left: 300px;
-    margin-block-start: 90px;
+    margin-block-start: 80px;
     font-family:Arial,sans-serif;
     font-style: normal;
     font-size: xx-large;
@@ -43,4 +43,31 @@ img{
 .second_row,fifth,sixth,seventh,eight{
     top: -60px;
     right: 140px;
+}
+.fb{
+    background-color:#6D5D6E;
+    color: #F4EEE0;
+    font-size: large;
+    border: 2px solid #F4EEE0;
+    padding: 12px;
+    margin-left: 500px;
+}
+.break1{
+    width: 30px;
+    height:30px;
+}
+.second1{
+    margin-block-start: 70px;
+    position: relative;
+    top: -20px;
+}
+.pic{
+    margin-left: 250px;
+    top: -50px;
+    width: 20%;
+} 
+.third1{
+    left: 200px;
+    position: relative;
+    display: block;
 }
