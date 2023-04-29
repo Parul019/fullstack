@@ -1,43 +1,84 @@
 :root{
     --backgroundColor:#FFA3FD;
-    --titlefont:#865DFF;
-    --secondarycolor:#E384FF;
-    --thirdcolor:#191825;
-    --defaulttextfont: 'Anton', sans-serif;
-    --defaultfont: 'Inspiration', cursive;
-    --defaultheadingfont: 'Sedgwick Ave Display', cursive; 
+    --titleFont:#865DFF;
+    --secondarycolor:#160979;
+    --thirdcolor:#B6EADA;
+    --defaultFont: 'Dancing Script', cursive;
+    --defaulttextFont: 'Lato', sans-serif;
+    --defaultheadingFont:'Sacramento', cursive;
 }
 .top-section{
-    color:var(--secondarycolor);
+ 
     background-color:var(--thirdcolor);
     text-align: center;  
     /* height: 500px; */
-    padding-top: 200px;
+    padding-top: 120px;
 }
 /* .heading-group{
     margin-top: 100px;
     display: inline-block;
 } */
 .heading{
-    font-family: var(--defaultheadingfont);
-    color: var(--titlefont);
+    font-family: var(--defaultheadingFont);
+    font-size: 4em;
+    color: var(--titleFont);
     margin: 0;
-    margin-top: 100px;
+    margin-top: 50px;
     display: inline-block;
 }
-.bio{
-    font-family: var(--defaulttextfont);
+h2{
+    font-family: var(--defaulttextFont);
     color: var(--secondarycolor);
     margin: 0;
-    padding-bottom: 20px;
+    padding-bottom: 90px;
     /* font-size: 0.75em; */
+}
+/* h3{
+        font-family: var(--defaulttextFont);
+        color: var(--secondarycolor);
+        margin: 0;
+        padding-bottom: 90px;
+        /* font-size: 0.75em;
+ } */
+.first{
+    font-family: var(--defaulttextFont);
+    color: var(--secondarycolor);
+    margin: 0;
+    padding-bottom: 90px;
+    margin-top: -200px;    
+    padding-left: 20px;
+    margin-left: -165px;
+    
+}
+.second{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: left;
+}
+.p2{
+    text-align: left;
+    padding-left: 20px;
+    margin-top: -80px;
+    width: 65%;
+    margin-left:80px;
+    line-height: 2;
+}
+.p1{
+    margin-left: 300px;
+    text-align: left;
+    padding-left: 20px;
+    margin-top: -80px;
+    width: 60%;
+    line-height: 2;
+    
 }
 img{
     margin-bottom: -5px;
 }
 body{
-    background-color: var(--backgroundColor);
+    background-color: var(--thirdcolor);
     margin: 0px;
+    color:var(--secondarycolor);
 }
 /* font-family: 'Anton', sans-serif;
 font-family: 'Inspiration', cursive;
@@ -45,18 +86,61 @@ font-family: 'Sedgwick Ave Display', cursive; */
 .top-cloud{
     width: 100px;
     position: absolute;
-    margin-block-start: -100px;
-    margin-left: 50px;
+    margin-block-start: -80px;
+    margin-left: 500px;
 }
 .bottom-cloud{
     width: 100px;
-    margin-block-start:50px;
+    margin-block-start:80px;
     position:absolute;
     margin-left: -100px;
 
 }
 .mountain{
-    width: 600px;
+    width: 350px;
     margin-bottom: 0;
 
+}
+.profile-pic{
+    border-radius: 100%;
+    width: 200px;
+    display: block;
+    margin: auto;
+    margin: 100px auto 50px auto;
+}
+.middle-section{
+    margin: 50px auto 100px auto;
+    text-align: center;
+    width: 75%;
+}
+.intro{
+    line-height: 2;
+    margin: auto;
+    width: 50%;
+}
+hr{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+    border: dotted 5px;
+    border-bottom: none;
+    width: 5%;
+
+}
+.code{
+    width: 200px;
+    display: block;
+    margin-left:100px;
+}
+.layout{
+    width: 200px;
+    display: block;
+    margin-top: -200px;
+    margin-inline-start: auto;
+}
+
+.div-2{
+    margin: 50px auto 50px auto;
+    text-align: center;
+    width: 55%;
 }
