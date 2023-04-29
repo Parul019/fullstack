@@ -3,13 +3,16 @@
     --titleFont:#865DFF;
     --secondarycolor:#160979;
     --thirdcolor:#B6EADA;
+    --sectioncolor: aquamarine;
+
     --defaultFont: 'Dancing Script', cursive;
     --defaulttextFont: 'Lato', sans-serif;
     --defaultheadingFont:'Sacramento', cursive;
+    --defaulttext:'Montserrat', sans-serif;
 }
 .top-section{
  
-    background-color:var(--thirdcolor);
+    background-color:var(--sectioncolor);
     text-align: center;  
     /* height: 500px; */
     padding-top: 120px;
@@ -59,6 +62,7 @@ h2{
     text-align: left;
     padding-left: 20px;
     margin-top: -80px;
+    margin-bottom: 80px;
     width: 65%;
     margin-left:80px;
     line-height: 2;
@@ -69,6 +73,7 @@ h2{
     padding-left: 20px;
     margin-top: -80px;
     width: 60%;
+    margin-bottom: 80px;
     line-height: 2;
     
 }
@@ -78,6 +83,7 @@ img{
 body{
     background-color: var(--thirdcolor);
     margin: 0px;
+    font-family: var(--defaulttext);
     color:var(--secondarycolor);
 }
 /* font-family: 'Anton', sans-serif;
@@ -113,6 +119,11 @@ font-family: 'Sedgwick Ave Display', cursive; */
     text-align: center;
     width: 75%;
 }
+.footer{
+    margin:0px auto;
+    text-align: center;
+    background-color: var(--secondarycolor);
+}
 .intro{
     line-height: 2;
     margin: auto;
@@ -130,10 +141,13 @@ hr{
 .code{
     width: 200px;
     display: block;
-    margin-left:100px;
+    margin-left:100px;       /* we can also use 'float' attribute to shift images
+    float left
+    margin right 40px
+     */
 }
 .layout{
-    width: 200px;
+    width: 200px;               /*float right margin left 40px*/
     display: block;
     margin-top: -200px;
     margin-inline-start: auto;
@@ -144,3 +158,53 @@ hr{
     text-align: center;
     width: 55%;
 }
+h1{
+
+    font-family: var(--defaulttextFont);
+    margin-left: 700px;
+
+} 
+a{
+    text-decoration: none;
+    color: white;
+}
+.contact{
+    background-color: var(--secondarycolor);
+    font-size: 1.75rem;
+    padding:10px 10px;
+    border-radius: 15px;
+}
+.contact:hover{
+    background-color:var(--sectioncolor);
+}
+.social{
+    padding: 40px 0px;
+
+}
+.social-link{
+    margin: 0px 40px;
+}
+.social-link:hover{
+    color: var(--titleFont);
+}
+.copyright{
+    margin: 0;
+    color: white;
+    padding-bottom: 40px;
+    font-size: 0.75rem;
+}
+/* .left{
+    float:left;
+    margin-right: 40px;
+}
+.right{
+    float: right;
+    margin-left: 40px;
+
+}
+.skill-row{
+    text-align:left;
+    margin-bottom: 80px;
+} 
+
+*/
