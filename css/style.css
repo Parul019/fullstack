@@ -71,3 +71,8 @@ img{
     position: relative;
     display: block;
 }
+hr{
+    border-top: 3px;
+    size: 5px;
+    color: beige;
+}
