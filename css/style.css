@@ -72,7 +72,9 @@ img{
     display: block;
 }
 hr{
-    border-top: 3px;
     size: 5px;
     color: beige;
+    width: 32em;
+    padding: 4px;
+    
 }
