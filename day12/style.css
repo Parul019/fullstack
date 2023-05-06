@@ -1,0 +1,108 @@
+body{
+    background-color: coral;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: large;
+}
+div{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+
+}
+.blue{
+    background-color: blue;
+
+}
+
+.orange{
+    background-color: orange;
+
+}
+.brown{
+    background-color: brown;
+}
+.magenta{
+    background-color: magenta;
+}
+.cyan{
+    background-color: cyan;
+}
+.black{
+    background-color: black;
+}
+.teal{
+    background-color: teal;
+}
+@media screen and (min-width:1000px){
+body{
+    background-color: darkkhaki;
+}
+}
+@media screen and (min-width:700px) and (max-width:900px) {
+    body{   
+        background-color:burlywood;
+    }
+}
+@media screen and (max-width:500px) {
+    div{
+        display: block;
+    }
+}   
+/* media query should be written at the last, it is useful in converting a lapotop oriented website 
+into mobile oriented  */
+/* mobile devices: 320px-480px
+ipads,tablets -481px-768px
+small screens,laptops - 769px-1024px
+desktops,large screens - 1025px-1200px
+extra large screens,tv -1201px and more */
+@media screen and (min-width:380px) and (max-width:480px) {
+ .red{
+    background-color: blue;
+ }   
+}
+@media screen and (min-width:481px){
+    .red{
+       background-color: orange;
+    }   
+}
+@media screen and (min-width:769px){
+    .red{
+       background-color: yellow;
+    }   
+}
+@media screen and (min-width:1025px){
+    .red{
+       background-color: brown;
+    }   
+}
+@media screen and (min-width:1201px) and (max-width:1480px) {
+    .red{
+       background-color: red;
+    }   
+}
+@media screen and (prefers-color-scheme:dark) {
+    body{
+        background-color: blueviolet;
+    }
+    div{
+        color: cyan;
+    }
+}
+@media screen and (orientation:landscape) {
+    body{
+        background-color:chocolate ;
+    }
+}
+@media screen and (orientation:portrait) {
+    body{
+        background-color:slategray ;
+    }
+}
