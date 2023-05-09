@@ -1,0 +1,109 @@
+/*.element{
+    width: 200px;
+    height: 200px;
+    border: solid 1px;
+    border-color: black;
+    background-color: aqua; 
+    animation: pulse 5s infinite;
+}
+@keyframes pulse{
+    0%,100%{
+        background-color: aqua;
+    }
+    50%{
+        background-color: cornflowerblue;
+    }
+}
+.element:hover{
+    animation:resizer 5s 1;
+}
+
+@keyframes resizer{
+    0%,100%{
+        transform: scale(1.0);
+        background-color: aqua;
+    }
+    50%{
+        transform: scale(0.25);
+        background-color: cornflowerblue;
+    }
+} 
+
+.rot{
+    width: 200px;
+    height: 200px;
+    border: solid 1px;
+    border-color: black;
+    /* background-color: aqua; 
+}
+.rot:hover{
+    animation: rot 5s infinite;
+}
+@keyframes rot{
+    0%,100%{
+        transform: scale(1.0); 
+        transform: rotate(0deg);
+        background-color: aqua;
+    }
+    50%{
+        /* transform: scale(0.25);
+        transform: rotate(360deg);
+        background-color: cornflowerblue;
+    }
+}
+.cir{
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    background-color: red;
+    animation-name: stretch;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+
+}
+.cir:hover{
+    animation:stretch 5s 1;
+} 
+@keyframes stretch{
+    0%{
+        transform:scale(.3);
+        background-color: red;
+        border-radius: 100%;
+    }
+    50%{
+        background-color: orange;
+    }
+    100%{
+        transform:scale(1.5);
+        background-color: yellow;
+    }
+}*/
+.box{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: red;
+    animation-name: movedown;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-direction: alternate; 
+    animation-iteration-count: infinite;
+
+}
+@keyframes movedown{
+    0%{
+        transform: translate(0px,100px);
+    }
+    50%{
+        transform: translate(400px,400px);
+    }
+    100%{
+        transform: translate(-100px,-100px);
+    }
+}
+
