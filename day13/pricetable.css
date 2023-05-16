@@ -1,13 +1,112 @@
 body{
-    background-color: bisque;
+    font-family: 'Montserrat';
+    background-color: burlywood;
 }
+
+h2{
+    margin: 0;
+    padding: 0;
+}
+h4{
+    margin: 0;
+    padding: 0;
+}
+
 .price-container{
+    height: 100vh;
     display: flex;
     column-gap: 20px;
-    
-    
+    justify-content: center;
+    align-items: center;
 }
+
 .price-box{
     text-align: center;
     background-color: white;
+    padding: 20px 0px;
+}
+/* Title */
+.title{
+    color:brown;
+    margin-bottom: 20px;      
+}
+
+/* Pricing */
+.pricing{
+    padding-top: 20px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(
+        180deg, 
+        rgb(240,240,240),
+        white
+    );
+}
+
+/* Price Row */
+.price-row{
+    color: red;
+}
+.rupee{
+    position: relative;
+    bottom: 15px;
+}
+.price{
+    font-size: 2.75rem;
+}
+
+/* Price Row Cancel */
+.price-row-cancel{
+    margin: 10px auto;
+    color:gray;
+}
+
+.cancel-price{
+    text-decoration:line-through ;
+}
+
+
+/* Button */
+.btn{
+    margin: 20px auto;
+}
+
+.add-to-cart{
+    text-decoration: none;
+    background-color: brown;
+    background-image: linear-gradient(
+        180deg, 
+        brown,
+        red
+    );
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.25rem;
+    color: white;
+    display: inline-block;
+    width: 75%;
+}
+
+.add-to-cart:hover{
+    background-image: linear-gradient(
+        180deg, 
+        red,
+        red
+    );
+}
+
+
+/* Features */
+.features{
+    text-align: left;
+    padding: 0px 20px;
+}
+.feature{
+    margin-bottom: 10px;
+}
+.feature-desc{
+    margin-left: 10px;
+}
+
+.disable{
+    color: gray;
 }
