@@ -1,0 +1,19 @@
+javascript-client side programming language
+    dyanmic behavior of website 
+
+fundamentals
+
+0. writing a simple JS on web browser - DEV tools-Console
+1. Data types
+    numbers
+    strings
+    arrays
+    boolean
+    objects
+2. variable
+3. built in function
+4. using javascript in html
+    a. inline 
+    b.internal
+    c. external
+5. control statemnets
