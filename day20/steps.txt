@@ -1,0 +1,42 @@
+# create django application
+python manage.py startapp demoapp
+
+#first create a view(function based view- FBV, class based View)_ views.py
+def ek_function(request):
+    return "Hi"
+
+#define the URL for created "view" - urls.py(within application)
+from django.urls import path
+from . import views
+urlpatterns-[
+    path("new"/,views.ekfunction,name='new'),
+]
+
+#register your app in settings.py
+INSTALLED_APPS = [
+    ...
+    ...
+    "demoapp".
+]
+
+# attach demoapp.urls into project urls.py
+from django.contrib import admin
+from django.urls import path, include
+
+urlpatterns =[
+    ...
+    ...
+    path("demoapp/", include("demoapp.urls"))
+]
+
+
+#adding an HTML Template to a view of application
+> create a folder named "templates" in "demoapp" folder
+> put your HTML file into "templates"
+> create/modify a View function
+
+
+#adding static files in my templates
+> Create a folder "static" in "demoapp"
+> put your static files into it
+> modify your HTML file to load these static files into 
